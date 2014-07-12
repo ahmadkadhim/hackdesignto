@@ -31,9 +31,24 @@
         <h1>Hack Design TO</h1>
         <h2>A community of self-directed learners and developers</h2>
 
-        <div id="wufoo-z1yjvkwm1hnfils">
+        <form action="javascript: postSignupToGoogle">
+            <fieldset>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+            </fieldset>
+            <button id="send" type="submit">Submit</button>
+            <div class="sent">Cheers to you, future designer!</div>
+        </form>
+
+        <!-- <div id="wufoo-z1yjvkwm1hnfils">
             Fill out my <a href="https://hackdesignto.wufoo.com/forms/z1yjvkwm1hnfils">online form</a>.
         </div>
+ -->
+
         <script type="text/javascript">var z1yjvkwm1hnfils;(function(d, t) {
             var s = d.createElement(t), options = {
             'userName':'hackdesignto',
