@@ -22,6 +22,7 @@
         <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -31,48 +32,30 @@
         <h1>Hack Design TO</h1>
         <h2>A community of self-directed learners and developers</h2>
 
-        <form action="javascript: postSignupToGoogle">
-            <fieldset>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text">
-            </fieldset>
-            <fieldset>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="text">
-            </fieldset>
-            <button id="send" type="submit">Submit</button>
-            <div class="sent">Cheers to you, future designer!</div>
-        </form>
-
-        <!-- <div id="wufoo-z1yjvkwm1hnfils">
-            Fill out my <a href="https://hackdesignto.wufoo.com/forms/z1yjvkwm1hnfils">online form</a>.
-        </div>
- -->
-
-        <script type="text/javascript">var z1yjvkwm1hnfils;(function(d, t) {
-            var s = d.createElement(t), options = {
-            'userName':'hackdesignto',
-            'formHash':'z1yjvkwm1hnfils',
-            'autoResize':true,
-            'height':'304',
-            'async':true,
-            'host':'wufoo.com',
-            'header':'show',
-            'ssl':true};
-            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-            s.onload = s.onreadystatechange = function() {
-            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try { z1yjvkwm1hnfils = new WufooForm();z1yjvkwm1hnfils.initialize(options);z1yjvkwm1hnfils.display(); } catch (e) {}};
-            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-            })(document, 'script');
-        </script>
-                
+        <section id="user-signup">
+            <form action="" method="post" id="form-signup">
+                <fieldset>
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="firstName" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" name="lastName" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                </fieldset>
+                <button id="send" type="submit">Submit</button>
+            </form> 
+            <div id="sent">Cheers to you, future designer!</div>
+        </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/form.js"></script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
