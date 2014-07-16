@@ -2,18 +2,20 @@
 
 homeRef = new Firebase('https://glowing-fire-60.firebaseIO.com/');
 
-// If no users object, initialize it with Ahmad's info
-if(homeRef.on('value', function(snapshot) {
-    return !!snapshot.val().users; // get true/false, not object
-})) {homeRef.set({
-        users: [{
-            firstName: 'Ahmad',
-            lastName: 'Kadhim',
-            email: 'akadhim13@gmail.com',
-            id: 0
-        }]
-    });
-}
+
+// Dangerous
+// // If no users object, initialize it with Ahmad's info
+// if(homeRef.on('value', function(snapshot) {
+//     return !!snapshot.val().users; // get true/false, not object
+// })) {homeRef.set({
+//         users: [{
+//             firstName: 'Ahmad',
+//             lastName: 'Kadhim',
+//             email: 'akadhim13@gmail.com',
+//             id: 0
+//         }]
+//     });
+// }
 
 var usersRef = new Firebase('https://glowing-fire-60.firebaseIO.com/users');
 
