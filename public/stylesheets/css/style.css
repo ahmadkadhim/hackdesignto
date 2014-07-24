@@ -450,7 +450,7 @@ dl {
   font-style: italic;
   margin: 0 .21em; }
 
-.tagline {
+header h2 {
   font-size: 1.4em; }
 
 h1, h2, h3 {
@@ -475,6 +475,16 @@ header, section.row, footer {
 
 section.row {
   padding: 1em 2em; }
+
+.desk-image {
+  position: relative; }
+  .desk-image .image-container {
+    margin-top: 3em;
+    width: 100%;
+    height: 35em;
+    background: url("../../img/desk.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(45%) hue-rotate(178deg); }
 
 body {
   background-color: #333e54; }
@@ -530,7 +540,7 @@ li {
   h6 {
     font-size: 1em; }
 
-  .tagline {
+  header h2 {
     font-size: 2.25em; }
 
   #why-signup {
@@ -542,6 +552,7 @@ li {
       margin-right: 0; }
 
   #form-signup {
+    margin-top: 3px;
     float: left;
     display: block;
     margin-right: 2.35765%;
