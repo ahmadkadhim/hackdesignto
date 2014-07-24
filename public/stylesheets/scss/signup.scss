@@ -1,0 +1,40 @@
+
+
+#user-signup {
+
+}
+
+#why-signup {
+
+	h2 {
+		margin-top: 0;
+	}
+}
+
+
+
+/////////////////////   FORM
+
+#form-signup {
+
+	input[type="submit"] {
+		display: block;
+	}
+
+}
+
+#sent {
+	display: none;
+}
+
+.form-success {
+
+	#form-signup {
+		display: none;
+	}
+
+	#sent {
+		display: block;
+	}
+
+}

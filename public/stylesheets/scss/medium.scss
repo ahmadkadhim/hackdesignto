@@ -1,0 +1,8 @@
+#why-signup {
+	@include span-columns(7);
+}
+
+#form-signup {
+	@include span-columns(5);
+	@include omega();
+}

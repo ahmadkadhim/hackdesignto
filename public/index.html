@@ -20,35 +20,55 @@
         <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
         <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+        
+        <script type="text/javascript">
+        // Typekit async
+          (function(d) {
+            var config = {
+              kitId: 'cjc5zym',
+              scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
     </head>
+
+
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h1>Hack Design TO</h1>
-        <h2>A community of self-directed learners and developers</h2>
+        <header>
+            <h1>HackDesign<span class="emphasis-text">TO</span></h1>
+            <h2>A community of self-directed learners and developers</h2>
+        </header>
 
-        <section id="user-signup">
+        <section id="user-signup" class="row">
+
+            <section id="why-signup">
+                <h2>Join The Group</h2>
+                <ul>
+                    <li><h4>Be the first to know of course dates</h4></li>
+                    <li><h4>Get design tips and tools straight to your inbox</h4></li>
+                    <li><h4>Get involved in shaping the course structure</h4></li>
+                </ul>
+            </section>
+
             <form action="" method="post" id="form-signup">
-                <fieldset>
-                    <label for="first-name">First Name</label>
-                    <input id="first-name" name="firstName" type="text" required>
-                </fieldset>
-                <fieldset>
-                    <label for="last-name">Last Name</label>
-                    <input id="last-name" name="lastName" type="text" required>
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" required>
-                </fieldset>
-                <button id="send" type="submit">Submit</button>
+                <!-- <label for="first-name">First Name</label> -->
+                <input id="first-name" name="firstName" type="text" placeholder="First Name" required>
+                <!-- <label for="last-name">Last Name</label> -->
+                <input id="last-name" name="lastName" type="text" placeholder="Last Name" required>
+                <!-- <label for="email">Email</label> -->
+                <input id="email" name="email" type="email" placeholder="Email" required>
+                <button id="send" type="submit">Join The Group</button>
             </form> 
-            <div id="sent">Cheers to you, future designer!</div>
+            <h3 id="sent">Cheers to you, future designer!</h3>
+
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

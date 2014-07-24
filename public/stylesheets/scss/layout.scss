@@ -1,0 +1,8 @@
+header, section.row, footer {
+	@include outer-container;
+	padding: 3em 2em;
+}
+
+section.row {
+	padding: 1em 2em;
+}

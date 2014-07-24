@@ -1,12 +1,15 @@
+@import "normalize";
+
 @import "bourbon/bourbon.scss";
 @import "bitters/bitters.scss";
 @import "neat/neat.scss";
 
-@import "normalize";
 @import "variables";
 @import "typography";
 @import "layout";
+@import "colors";
 @import "form";
+@import "signup";
 
 
 // Media Queries //

@@ -2,15 +2,16 @@
 ///////////////////////////////////////////////////////////////////////////////
 $sans-serif: $helvetica;
 $serif: $georgia;
+$typekit: 'quatro-slab', $helvetica;
 
-$base-font-family: $sans-serif;
+$base-font-family: $typekit;
 $header-font-family: $base-font-family;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
 $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.5;
-$base-border-radius: em(3);
+$base-border-radius: 0;
 
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
@@ -23,12 +24,18 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
+$red: #D05158;
+$offwhite: #DAD8D8;
+$blue-lt: #333E54;
+$blue-med: #222939;
+$blue-dark: #1B212F;
+
 // Body Color
 $base-body-color: white;
 
 //  Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: $offwhite;
+$base-accent-color: $blue-med;
 
 //  Text Link Colors
 $base-link-color: $base-accent-color;
