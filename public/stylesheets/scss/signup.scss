@@ -1,7 +1,5 @@
-
-
 #user-signup {
-
+	// background: $blue-med;
 }
 
 #why-signup {
@@ -17,10 +15,22 @@
 
 #form-signup {
 
-	input[type="submit"] {
-		display: block;
-	}
+	margin-top: 1em;
 
+	button {
+		display: block;
+		width: 100%;
+		padding: .70em 0;
+	}
+}
+
+li {
+	border-bottom: 1px solid rgba(240,210,210,.1);
+	padding: .5em 0;
+
+	&:last-child {
+		border-bottom: none;
+	}
 }
 
 #sent {

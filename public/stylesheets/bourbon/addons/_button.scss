@@ -338,7 +338,7 @@
     $color:       hsl(0, 0, 20%);
   }
 
-  background-color: $base-color;
+  background-color: rgba(0,0,0,.15);
   border-radius: 0;
   border: none;
   color: $color;
@@ -348,9 +348,10 @@
   padding: 7px 18px;
   text-decoration: none;
   background-clip: padding-box;
+  @include transition(background 140ms linear);
 
   &:hover:not(:disabled){
-    $base-color-hover:    adjust-color($base-color, $saturation: 4%, $lightness: 5%);
+    $base-color-hover:    adjust-color($base-color, $saturation: -4%, $lightness: -3%);
 
     @if $grayscale == true {
       $base-color-hover: grayscale($base-color-hover);
@@ -362,7 +363,7 @@
 
   &:active:not(:disabled),
   &:focus:not(:disabled) {
-    $base-color-active: adjust-color($base-color, $saturation: -4%, $lightness: -5%);
+    $base-color-active: adjust-color($base-color, $saturation: 4%, $lightness: 5%);
 
     @if $grayscale == true {
       $base-color-active: grayscale($base-color-active);

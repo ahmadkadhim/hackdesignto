@@ -2,10 +2,11 @@
 ///////////////////////////////////////////////////////////////////////////////
 $sans-serif: $helvetica;
 $serif: $georgia;
-$typekit: 'quatro-slab', $helvetica;
+$freight: 'freight-sans-pro', $helvetica;
+$quatro: 'quatro-slab', $helvetica;
 
-$base-font-family: $typekit;
-$header-font-family: $base-font-family;
+$base-font-family: $freight;
+$header-font-family: $quatro;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////

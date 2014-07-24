@@ -10,6 +10,28 @@
 	}
 }
 
-.emphasis-text {
+.red-text {
 	color: $red;
+}
+
+.italic {
+	font-style: italic;
+	margin: 0 .21em;
+}
+
+.tagline {
+	font-size: $base-font-size * 1.4;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+h4, h5, h6, button, input[type="submit"] {
+	font-family: $freight;
+	font-weight: 600;
+}
+
+#why-signup h3, h4, h5, h6 {
+	font-weight: 400;
 }
