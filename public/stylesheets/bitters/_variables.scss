@@ -26,9 +26,21 @@ $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
 $red: #D05158;
-$offwhite: #DAD8D8;
-$blue-lt: #333E54;
+// $offwhite: #DED8D8;
+$offwhite: #F4EDED;
+
+$blue-xtra-lt: #63849c;
+
+// $blue-lt: #353C54;
+// $blue-lt: #2E4053;
+// $blue-lt: #384A70;
+// $blue-lt: #303C53;
+
+$blue-lt: #353C54;
+
 $blue-med: #222939;
+
+//possible dark blue: 131320
 $blue-dark: #1B212F;
 
 // Body Color
@@ -36,11 +48,11 @@ $base-body-color: white;
 
 //  Font Colors
 $base-font-color: $offwhite;
-$base-accent-color: $blue-med;
+$base-accent-color: $red;
 
 //  Text Link Colors
 $base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 15);
+$hover-link-color: darken($base-accent-color, 8);
 
 // Border color
 $base-border-color: $light-gray;

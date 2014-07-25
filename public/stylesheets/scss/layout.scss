@@ -1,10 +1,10 @@
 header, section.row, footer {
 	@include outer-container;
-	padding: 3em 2em;
+	padding: 3em 2em 2em;
 }
 
 section.row {
-	padding: 1em 2em;
+	padding: 2em 2em;
 }
 
 .desk-image {
@@ -21,4 +21,10 @@ section.row {
 		// overflow: hidden;
 	}
 
+}
+
+#social {
+	h4 {
+		margin-top: .15em;
+	}
 }

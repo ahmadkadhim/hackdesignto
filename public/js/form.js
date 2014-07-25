@@ -49,8 +49,7 @@ $.fn.serializeObject = function() // return array of objects as single obj
 };
 
 var formSubmitted = function() {
-    console.log('#signup');
-    $('#user-signup').addClass('form-success');
+    $('#signup').addClass('form-success');
 };
 
 $('#form-signup').submit(function(event) {
