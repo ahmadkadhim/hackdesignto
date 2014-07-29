@@ -692,6 +692,8 @@ li {
 
   #essay-column h2 {
     margin-bottom: .75em; }
+  #essay-column h4 {
+    font-size: 1.45em; }
   #essay-column p {
     font-size: 1.25em;
     max-width: 36em; } }
