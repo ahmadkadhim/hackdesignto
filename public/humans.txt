@@ -3,13 +3,19 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Ahmad Kadhim> -- <Solo Dev> -- <@ahmadkadhim>
 
 # THANKS
 
-    <name>
+    <Denny Alvarez>
+    <David King>
+    <David Hariri>
+    <Jehad Khayat>
+    <Freddy Pire>
+    <Anastasia>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    SASS, Bourbon + Neat + Bitters
