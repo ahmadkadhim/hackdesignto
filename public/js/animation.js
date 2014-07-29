@@ -1,5 +1,5 @@
 
-$('h1, header h2, #signup h2, #why-signup, #form-wrapper, #social').removeClass('animated');
+$('h1, header h2, #signup h2, #why-signup, #form-wrapper, #social').addClass('animated');
 
 $('h1, header h2').addClass('fadeInDown');
 $('#why-signup, #signup h2').addClass('fadeInLeft');

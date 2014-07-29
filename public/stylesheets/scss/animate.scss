@@ -3,18 +3,18 @@
 }
 
 .fadeInDown {
-  -webkit-animation: fadeInDown 400ms ease-out 1 both;
-  animation: fadeInDown 400ms ease-out 1 both;
+  -webkit-animation: fadeInDown 400ms ease-out 100ms 1 both;
+  animation: fadeInDown 400ms ease-out 100ms 1 both;
 }
 
 .fadeInLeft {
-  -webkit-animation: fadeInLeft 400ms ease-out 1 both;
-  animation: fadeInLeft 400ms ease-out 150ms 1 both;
+  -webkit-animation: fadeInLeft 400ms ease-out 200ms 1 both;
+  animation: fadeInLeft 400ms ease-out 200ms 1 both;
 }
 
 .fadeInRight {
-  -webkit-animation: fadeInRight 400ms ease-out 150ms 1 both;
-  animation: fadeInRight 400ms ease-out 150ms 1 both;
+  -webkit-animation: fadeInRight 400ms ease-out 200ms 1 both;
+  animation: fadeInRight 400ms ease-out 200ms 1 both;
 }
 
 .fadeInUp {
