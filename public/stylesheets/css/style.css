@@ -472,7 +472,8 @@ button, input[type="submit"] {
   font-weight: 300; }
 
 #sent h3 {
-  line-height: 1.2; }
+  line-height: 1.4em;
+  margin-top: 2.6em; }
 
 #essay h4 {
   font-weight: 900;
