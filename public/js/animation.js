@@ -1,12 +1,10 @@
 
-$('h1, h2, #why-signup, #form-signup, #social').addClass('animated');
+$('h1, header h2, #signup h2, #why-signup, #form-wrapper, #social').removeClass('animated');
 
-$(window).bind("load", function() {
-    $('h1, header h2').addClass('fadeInDown');
-    $('#why-signup, #signup h2').addClass('fadeInLeft');
-    $('#form-signup').addClass('fadeInRight');
-    $('#social').addClass('fadeInUp');
-});
+$('h1, header h2').addClass('fadeInDown');
+$('#why-signup, #signup h2').addClass('fadeInLeft');
+$('#form-wrapper').addClass('fadeInRight');
+$('#social').addClass('fadeInUp');
 
 
 // // Adapted slightly from Sam Dutton

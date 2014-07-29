@@ -18,11 +18,11 @@ h1 {
 }
 
 h2 {
-  font-size: $base-font-size * 1.6; // 16 * 2 = 32px
+  font-size: $base-font-size * 1.7; // 16 * 2 = 32px
 }
 
 h3 {
-  font-size: $base-font-size * 1.4; // 16 * 1.75 = 28px
+  font-size: $base-font-size * 1.6; // 16 * 1.75 = 28px
 }
 
 h4 {
@@ -34,21 +34,24 @@ h5 {
 }
 
 h6 {
-  font-size: $base-font-size;
+  font-size: $base-font-size * 1;
 }
 
 p {
-  margin: 0 0 ($base-line-height * .5);
+  margin: 0 0 ($base-line-height / 1.5);
+  color: darken($offwhite, 7);
+  line-height: 1.58;
 }
 
 a {
   color: $base-link-color;
   text-decoration: none;
-  @include transition(all 0.1s linear);
+  border-bottom: 2px solid rgba(208,81,88,.33);
+  @include transition(all 50ms linear);
 
   &:hover {
     color: $hover-link-color;
-    border-bottom: 3px solid $hover-link-color;
+    border-bottom: 2px solid rgba(195,53,61,.67);
   }
 
   &:active, &:focus {

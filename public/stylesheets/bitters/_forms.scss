@@ -49,7 +49,7 @@ select[multiple=multiple] {
   font-size: $form-font-size;
   color: $base-font-color;
   margin-bottom: $base-line-height / 2;
-  padding: ($base-line-height / 3) ($base-line-height / 3);
+  padding: ($base-line-height / 2.2) ($base-line-height / 2);
   width: 100%;
 
   &:hover {

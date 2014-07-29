@@ -43,15 +43,15 @@
         <![endif]-->
 
         <header>
-            <h1>HackDesign<span class="red-text">TO</span></h1>
-            <h2 class="tagline">A community of <span class="italic">self-directed</span> learners</h2>
+            <h1 class="animated">HackDesign<span class="red-text">TO</span></h1>
+            <h2 class="animated">A community of self-directed learners</h2>
         </header>
 
         <section id="signup" class="row">
 
-            <h2>Join The Group</h2>
+            <h2 class="animated">Join The Group</h2>
 
-            <section id="why-signup">
+            <section id="why-signup" class="animated">
                 <ul>
                     <li><h5>Be the first to know class dates</h5></li>
                     <li><h5>Get involved in shaping the course structure</h5></li>
@@ -59,38 +59,59 @@
                 </ul>
             </section>
 
-            <form action="" method="post" id="form-signup">
-                <!-- <label for="first-name">First Name</label> -->
-                <input id="first-name" name="firstName" type="text" placeholder="First Name" required>
-                <!-- <label for="last-name">Last Name</label> -->
-                <input id="last-name" name="lastName" type="text" placeholder="Last Name" required>
-                <!-- <label for="email">Email</label> -->
-                <input id="email" name="email" type="email" placeholder="Email" required>
-                <button id="send" type="submit">Join The Group</button>
-            </form> 
-            <h3 id="sent">Cheers to you, future designer!</h3>
+            <div id="form-wrapper" class="animated">
+                <form action="" method="post" id="form-signup">
+                    <!-- <label for="first-name">First Name</label> -->
+                    <input id="first-name" name="firstName" type="text" placeholder="First Name" required>
+                    <!-- <label for="last-name">Last Name</label> -->
+                    <input id="last-name" name="lastName" type="text" placeholder="Last Name" required>
+                    <!-- <label for="email">Email</label> -->
+                    <input id="email" name="email" type="email" placeholder="Email" required>
+                    <button id="send" type="submit">Join The Group</button>
+                </form> 
+            </div>
+            <div id="sent">
+                <h3>Cheers to you, future designer!</h3>
+                <h5>Why don't you say hey on <a href="https://twitter.com/HackDesignTO">Twitter</a> if you haven't already?</h5>
+            </div>
 
         </section>
 
-        <section id="social" class="row">
-            <h3>Get updates on <a href="https://twitter.com/HackDesignTO">Twitter</a>, <a href="https://medium.com/@HackDesignTO">Medium</a>, and <a href="http://www.meetup.com/HackDesignTO/">Meetup</a>.</h3>
+        <section id="social" class="row animated">
+            <h2>Get updates on <a href="https://twitter.com/HackDesignTO">Twitter</a>, <a href="https://medium.com/@HackDesignTO">Medium</a>, and <a href="http://www.meetup.com/HackDesignTO/">Meetup</a>.</h2>
             <h4>We're moving really quickly trying to get a course ready for you. In the meanwhile, those are the best places to follow our process, struggles, and triumphs.</h4>
         </section>
 
-<!--         <section class="desk-image">
-            <div class="image-container"></div>
-        </section> -->
+        <section id="essay">
+            <div id="essay-column" class="row">    
+                <!-- <h2>The Start Of A Mission</h2> -->
+                <h4>Why Create HackDesignTO?</h4>
+                <p>It started in my own frustrations.</p>
+                <p>I have cherished many well-designed objects and experiences in my life (Staedtler pencils, my first iPod, Emirates airline). I’ve been interested in design for years, first because I liked the idea of “being a designer,” and now because the feeling of making useful, thoughtful things is the biggest baddest dopamine rush you can get.</p>
+                <p>But “learning” design always seemed like an impossible task. I asked plenty of designers how I could learn design (without going to college for years), and their replies usually went something like this: “Just make a lot of stuff. See how other people do it. Here’s some books I can recommend. Just muddle your way through it and eventually you’ll be good.” While this was understandable, since many of them followed that exact same path, I knew there had to be a better way.</p>
+                <h4>How Do You Learn Best?</h4>
+                <p>Attending <a href="http://bitmakerlabs.com">Bitmaker Labs</a> last summer, that better way began to take shape in my mind. When you have a group of passionate, motivated, and inspired classmates, and the teachers and mentors are there to guide you instead of lecture you, it is amazing how much you can do. It is also important to have a sense of your learning path, however fuzzy it may be.</p>
+                <p>The first person I asked who had a better answer on how to learn design was Jon Lax, after his talk at Bitmaker last fall. He recommended I take a look at <a href="http://hackdesign.org">HackDesign.org</a>. It offered the clear, structured, comprehensive course I was always looking for. But there was still something missing: the community.</p>
+                <h4>So What Is HackDesignTO?</h4>
+                <p>It’s a community and course for people who want to learn to design great digital products. Specifically, it is a weekly class where people can come and share their work, get feedback, teach each other, and motivate each other to keep learning. It would be entirely free for everyone involved. At least initially, we would likely require that attendees know HTML/CSS and some JS to be able to actually implement what we learn. To be a designer, you have to know your medium intimately.</p>
+                <p>The course material specifically does not focus on visual design, instead starting from the bottom: strategy, user needs, structure, interaction, and only lastly relaying those foundational components of a good design into something visually appealing.</p>
+                <h4>Now What?</h4>
+                <p>Design isn't easy to learn, but it doesn’t have to be a lonely struggle. HackDesignTO was born out of not only the need to learn, but the need to connect with other like-minded aspiring designers. The mission is to enable students to make incredible products.</p>
+                <p>We can do that better if we come together, if we help each other, if we push our classmates and ourselves. We'll critique and share and encourage and learn. We'll make things we love. We'll stop waiting for a better time that will never come. Let's just do it.</p>
+                <p>Let’s become designers together.</p>
+            </div>
+        </section>
 
         <footer>
-            <h5>Lovingly made by <a href="https://twitter.com/ahmadkadhim">Ahmad Kadhim</a> in Toronto</h5>
+            <h5>Made by <a href="https://twitter.com/ahmadkadhim">Ahmad Kadhim</a> in Toronto</h5>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
+        <script src="js/animation.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/form.js"></script>
-        <script src="js/onload.js"></script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

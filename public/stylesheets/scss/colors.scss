@@ -2,3 +2,14 @@ body {
 	background-color: $blue-lt;
 }
 
+$essay-color: desaturate($blue-lt, 14);
+$lighter-essay-color: lighten($essay-color, 8);
+
+#essay {
+  background-color: lighten($offwhite, 3);
+  color: $blue-lt;
+
+  p {
+  	color: $lighter-essay-color;
+  }
+}

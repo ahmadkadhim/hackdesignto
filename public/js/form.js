@@ -50,19 +50,21 @@ $.fn.serializeObject = function() // return array of objects as single obj
 
 var formSubmitted = function() {
     $('#signup').addClass('form-success');
+    $('#sent').addClass('fadeInDown');
 };
 
 $('#form-signup').submit(function(event) {
     var formData = $(this).serializeObject();
     $(formData).addId(formData);
-    usersRef.push(formData, function(error) {
-        if (error) {
-            alert('Data could not be saved.' + error);
-        } else {
-            console.log('Data saved successfully.');
-            formSubmitted();
-        }
-    });
+    // usersRef.push(formData, function(error) {
+    //     if (error) {
+    //         alert('Data could not be saved.' + error);
+    //     } else {
+    //         console.log('Data saved successfully.');
+    //         formSubmitted();
+    //     }
+    // });
+    formSubmitted();
     event.preventDefault();
 });
 
