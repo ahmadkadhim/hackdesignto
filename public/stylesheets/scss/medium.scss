@@ -26,6 +26,25 @@ header h2 {
 	font-size: $base-font-size * 2;
 }
 
+// #first-class-explanation {
+//   @include span-columns(7);
+// }
+
+// #eventbrite {
+//   @include span-columns(5);
+//   @include omega();
+// }
+
+#first-class-explanation {
+  // float: left;
+  // padding-right: 1em;
+}
+
+#eventbrite {
+  padding-left: 2em;
+  float: right;
+}
+
 #why-signup, #signup h2 {
 	@include span-columns(7);
 }
