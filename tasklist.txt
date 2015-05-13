@@ -1,0 +1,13 @@
+
+
+To Do
+
+- Consider using a fixed/sliding header
+- Browserify
+- Lightbox
+- Map graphic
+- Outline background graphic (very transparent black or white, maybe of phones/ipads)
+- Add images, blockquotes, other interesting things to essay. Check the intro essay on HackDesign
+- Consider splitting up the paragraph of explainer into three points
+- Class dates in a sidebar
+

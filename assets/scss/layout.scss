@@ -1,0 +1,103 @@
+
+$section-tb-padding: 1.7em;
+$section-lr-padding: 2em;
+$major-section-tb-padding: 4.8em;
+
+.row, footer {
+	@include outer-container;
+	padding: $major-section-tb-padding $section-lr-padding $section-tb-padding;
+}
+
+header {
+	min-height: 30em;
+	margin-bottom: 3em;
+
+	.row {
+		// padding-top: 5em;
+	}
+
+}
+
+.row {
+	padding: $section-tb-padding $section-lr-padding;
+}
+
+footer {
+	padding: $major-section-tb-padding $section-lr-padding;
+}
+
+#get-tickets {
+	background-color: $base-accent-color;
+	border-radius: 3px;
+	border: 0;
+	color: white;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: bold;
+	padding: 7px 18px;
+	text-decoration: none;
+	background-clip: padding-box;
+	-webkit-font-smoothing: antialiased;
+	font-size: $base-font-size;
+	font-weight: bold;
+	line-height: 1em;
+	
+	margin-top: 7em;
+	margin-left: 1em;
+
+	img {
+		margin-top: -8em;
+	}
+
+	a {
+		@include button(flat, $offwhite);
+		width: 100%;
+		margin: .5em 0;
+		color: $base-accent-color;
+		text-align: center;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+#social {
+
+	padding-bottom: $major-section-tb-padding;
+
+	h4 {
+		margin-top: .55em;
+	}
+}
+
+#first-class-explanation {
+	h4 {
+		margin-bottom: 1em;
+	}
+}
+
+#essay-column {
+
+	padding: 4em 2em;
+
+	h2 {
+		margin-bottom: .75em;
+	}
+
+	figure {
+
+		margin: $section-lr-padding/2 auto;
+
+		img {
+			border: 5px solid $blue-lt;
+			border-radius: 5px;
+		}
+
+		figcaption {
+			text-align: center;
+			// padding-bottom: 1em;
+		}
+	}
+}
